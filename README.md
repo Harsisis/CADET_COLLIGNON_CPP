@@ -6,5 +6,10 @@ Pas de soucis sur ces classes ni de grandes difficultées.
 Mais abandon de nos classes, pour utiliser les classes du std. (ces classes seront plus propres et poseront moins de problèmes)
 
 TD2:
-Installation de QT
-Familiarisation avec l'univers QT
+Tentative d'installation de QT
+Tentative d'upgrade des classes liste, pile et file (non testées)
+
+
+Remarques :
+Difficultées à utiliser c++, car nous ne connaissons pas
+C'est dommage de sanctionner les étudiants, car ils se sont renseigné pour savoir ce qui était faisable ou non en c++ avec les librairies
