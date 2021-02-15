@@ -11,7 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66e5399d-127e-407c-8758-e07de564c7a9" name="Default Changelist" comment="" />
+    <list default="true" id="66e5399d-127e-407c-8758-e07de564c7a9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1612770489563</updated>
       <workItem from="1612770491892" duration="5729000" />
-      <workItem from="1613372327381" duration="4969000" />
+      <workItem from="1613372327381" duration="5273000" />
     </task>
     <task id="LOCAL-00001" summary="project structure">
       <created>1612770951998</created>
@@ -117,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613384719179</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="readme">
+      <created>1613385201052</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1613385201052</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +150,7 @@
     <MESSAGE value="class type liste, file and pile plus test QT" />
     <MESSAGE value="fichiers bizzares" />
     <MESSAGE value="héritage" />
-    <option name="LAST_COMMIT_MESSAGE" value="héritage" />
+    <MESSAGE value="readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme" />
   </component>
 </project>
