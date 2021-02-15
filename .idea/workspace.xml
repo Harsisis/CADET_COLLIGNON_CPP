@@ -11,7 +11,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66e5399d-127e-407c-8758-e07de564c7a9" name="Default Changelist" comment="" />
+    <list default="true" id="66e5399d-127e-407c-8758-e07de564c7a9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/File.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/File.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/Liste.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/Liste.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/Pile.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/Pile.hpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,6 +67,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -75,6 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1612770489563</updated>
       <workItem from="1612770491892" duration="5729000" />
+      <workItem from="1613372327381" duration="4632000" />
     </task>
     <task id="LOCAL-00001" summary="project structure">
       <created>1612770951998</created>
@@ -97,17 +110,36 @@
       <option name="project" value="LOCAL" />
       <updated>1612781341530</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fichiers bizzares">
+      <created>1613372440927</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1613372440927</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="project structure" />
     <MESSAGE value="added class liste and noeud" />
     <MESSAGE value="class type liste, file and pile plus test QT" />
-    <option name="LAST_COMMIT_MESSAGE" value="class type liste, file and pile plus test QT" />
+    <MESSAGE value="fichiers bizzares" />
+    <option name="LAST_COMMIT_MESSAGE" value="fichiers bizzares" />
   </component>
 </project>

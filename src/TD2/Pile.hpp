@@ -1,5 +1,5 @@
-#ifndef DEF_CMPT_INFO_STACK_HPP
-#define DEF_CMPT_INFO_STACK_HPP
+#ifndef DEF_CMPT_INFO_Pile_HPP
+#define DEF_CMPT_INFO_Pile_HPP
 #include <cstdlib>
 #include <ostream>
 #include "Liste.hpp"
@@ -7,78 +7,78 @@
 namespace cmpt_info
 {
     template <typename ValueType>
-    class Stack{
+    class Pile : public Liste{
 
     protected:
         List<ValueType> _internalList;
 
     public:
 
-        Stack();
+        Pile();
 
         void push(ValueType const &item);
 
         size_t size() const;
         /**
-         * @brief  Returns true if the stack is empty
-         * @return true if the stack is empty
+         * @brief  Returns true if the Pile is empty
+         * @return true if the Pile is empty
          */
         bool empty() const;
         /**
-         * @brief  Removes the first item of the stack, and returns it
+         * @brief  Removes the first item of the Pile, and returns it
          */
         ValueType pop();
         /**
-         * @brief  Returns the first item of the stack, without removing it
+         * @brief  Returns the first item of the Pile, without removing it
          */
         ValueType peek() const;
         /**
-         * @brief  Write the stack to the stream
+         * @brief  Write the Pile to the stream
          * @param  stream: stream to write on
          */
         void print(std::ostream &stream) const;
     };
     template <typename ValueType>
-    Stack<ValueType>::Stack() : _internalList()
+    Pile<ValueType>::Pile() : _internalList()
     {
         //constructor
     }
     template <typename ValueType>
-    void Stack<ValueType>::push(ValueType const &item)
+    void Pile<ValueType>::push(ValueType const &item)
     {
         _internalList.push_back(item);
     }
     template <typename ValueType>
-    size_t Stack<ValueType>::size() const
+    size_t Pile<ValueType>::size() const
     {
         return _internalList.size();
     }
     template <typename ValueType>
-    bool Stack<ValueType>::empty() const
+    bool Pile<ValueType>::empty() const
     {
         return _internalList.empty();
     }
     template <typename ValueType>
-    ValueType Stack<ValueType>::pop()
+    ValueType Pile<ValueType>::pop()
     {
         ValueType *value = &(*_internalList.end());
         _internalList.pop_back();
         return *value;
     }
     template <typename ValueType>
-    ValueType Stack<ValueType>::peek() const
+    ValueType Pile<ValueType>::peek() const
     {
         return *_internalList.end();
     }
     template <typename ValueType>
-    void Stack<ValueType>::print(std::ostream &stream) const
+    void Pile<ValueType>::print(std::ostream &stream) const
     {
         stream << _internalList;
     }
     template <typename ValueType>
-    std::ostream &operator<<(std::ostream &stream, Stack<ValueType> const &stack)
+    std::ostream &operator<<(std::ostream &stream, Pile<ValueType> const &Pile)
     {
-        stack.print(stream);
+        Pile.print(stream);
         return stream;
     }
 }

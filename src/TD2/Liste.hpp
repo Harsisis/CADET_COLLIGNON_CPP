@@ -1,5 +1,5 @@
-#ifndef DEF_CMPT_INFO_LIST_HPP
-#define DEF_CMPT_INFO_LIST_HPP
+#ifndef DEF_CMPT_INFO_Liste_HPP
+#define DEF_CMPT_INFO_Liste_HPP
 #include <cstdlib>
 #include <stdexcept>
 #include <ostream>
@@ -9,26 +9,26 @@ namespace cmpt_info
     template <typename ValueType>
     class Iterator;
     template <typename ValueType>
-    class List{
+    class Liste{
         friend Iterator<ValueType>;
 
     protected:
         template <typename NodeValueType>
-        struct ListNode{
+        struct ListeNode{
             NodeValueType _item;
-            ListNode<NodeValueType> *_previous;
-            ListNode<NodeValueType> *_next;
+            ListeNode<NodeValueType> *_previous;
+            ListeNode<NodeValueType> *_next;
         };
-        typedef ListNode<ValueType> node_t;
+        typedef ListeNode<ValueType> node_t;
 
-        ListNode<ValueType> *_first;
-        ListNode<ValueType> *_last;
+        ListeNode<ValueType> *_first;
+        ListeNode<ValueType> *_last;
         size_t _size;
 
     public:
         typedef Iterator<ValueType> iterator;
-        List();
-        ~List();
+        Liste();
+        ~Liste();
         void push_front(ValueType const &item);
 
         void push_back(ValueType const &item);
@@ -56,16 +56,16 @@ namespace cmpt_info
 
     template <typename ValueType>
     class Iterator{
-        friend List<ValueType>;
+        friend Liste<ValueType>;
 
     protected:
-        typename List<ValueType>::node_t *_ptr;
-        typename List<ValueType>::node_t *_next;
-        typename List<ValueType>::node_t *_prev;
-        const List<ValueType> *_list;
+        typename Liste<ValueType>::node_t *_ptr;
+        typename Liste<ValueType>::node_t *_next;
+        typename Liste<ValueType>::node_t *_prev;
+        const Liste<ValueType> *_Liste;
         bool _reverse;
 
-        Iterator(const List<ValueType> *list, typename List<ValueType>::node_t *ptr, bool reverse);
+        Iterator(const Liste<ValueType> *Liste, typename Liste<ValueType>::node_t *ptr, bool reverse);
 
         void refresh();
 
@@ -88,14 +88,14 @@ namespace cmpt_info
         bool operator!=(const Iterator<ValueType> &right) const;
     };
     template <typename ValueType>
-    List<ValueType>::List() : _first(nullptr),
+    Liste<ValueType>::Liste() : _first(nullptr),
                               _last(nullptr),
                               _size(0)
     {
         //constructor
     }
     template <typename ValueType>
-    List<ValueType>::~List()
+    Liste<ValueType>::~Liste()
     {
         node_t *it;
         node_t *next = _first;
@@ -106,7 +106,7 @@ namespace cmpt_info
         }
     }
     template <typename ValueType>
-    void List<ValueType>::push_front(ValueType const &item){
+    void Liste<ValueType>::push_front(ValueType const &item){
         node_t *node = new node_t();
         node->_item = item;
         node->_next = _first;
@@ -119,7 +119,7 @@ namespace cmpt_info
         ++_size;
     }
     template <typename ValueType>
-    void List<ValueType>::push_back(ValueType const &item){
+    void Liste<ValueType>::push_back(ValueType const &item){
         node_t *node = new node_t();
         node->_item = item;
         node->_previous = _last;
@@ -132,9 +132,9 @@ namespace cmpt_info
         ++_size;
     }
     template <typename ValueType>
-    void List<ValueType>::insert(iterator &it, ValueType const &item){
-        if (it._list != this)
-            throw std::invalid_argument("Iterator not pointing this list.");
+    void Liste<ValueType>::insert(iterator &it, ValueType const &item){
+        if (it._Liste != this)
+            throw std::invalid_argument("Iterator not pointing this Liste.");
         else if (it == end())
             push_back(item);
         else if (it == begin())
@@ -166,9 +166,9 @@ namespace cmpt_info
         }
     }
     template <typename ValueType>
-    void List<ValueType>::remove(iterator &it){
-        if (it._list != this)
-            throw std::invalid_argument("Iterator not pointing this list.");
+    void Liste<ValueType>::remove(iterator &it){
+        if (it._Liste != this)
+            throw std::invalid_argument("Iterator not pointing this Liste.");
         if (_first == it._ptr)
             _first = it._ptr->_next;
         if (_last == it._ptr)
@@ -181,42 +181,42 @@ namespace cmpt_info
         --_size;
     }
     template <typename ValueType>
-    size_t List<ValueType>::size() const{
+    size_t Liste<ValueType>::size() const{
         return _size;
     }
     template <typename ValueType>
-    bool List<ValueType>::empty() const{
+    bool Liste<ValueType>::empty() const{
         return size() == 0;
     }
     template <typename ValueType>
-    void List<ValueType>::pop_front(){
+    void Liste<ValueType>::pop_front(){
         remove(begin());
     }
     template <typename ValueType>
-    void List<ValueType>::pop_back(){
+    void Liste<ValueType>::pop_back(){
         remove(rbegin());
     }
     template <typename ValueType>
-    typename List<ValueType>::iterator List<ValueType>::begin() const{
+    typename Liste<ValueType>::iterator Liste<ValueType>::begin() const{
         return iterator(this, _first, false);
     }
     template <typename ValueType>
-    typename List<ValueType>::iterator List<ValueType>::rbegin() const{
+    typename Liste<ValueType>::iterator Liste<ValueType>::rbegin() const{
         return iterator(this, _last, true);
     }
     template <typename ValueType>
-    typename List<ValueType>::iterator List<ValueType>::end() const{
+    typename Liste<ValueType>::iterator Liste<ValueType>::end() const{
         return iterator(this, nullptr, false);
     }
     template <typename ValueType>
-    typename List<ValueType>::iterator List<ValueType>::rend() const{
+    typename Liste<ValueType>::iterator Liste<ValueType>::rend() const{
         return iterator(this, nullptr, true);
     }
     template <typename ValueType>
-    std::ostream &operator<<(std::ostream &stream, List<ValueType> const &list){
+    std::ostream &operator<<(std::ostream &stream, Liste<ValueType> const &Liste){
         stream << "[ ";
         bool first = true;
-        for (auto it = list.begin(); it != list.end(); ++it)
+        for (auto it = Liste.begin(); it != Liste.end(); ++it)
         {
             if (!first)
                 stream << ", ";
@@ -228,7 +228,7 @@ namespace cmpt_info
         return stream;
     }
     template <typename ValueType>
-    Iterator<ValueType>::Iterator(const List<ValueType> *list, typename List<ValueType>::node_t *ptr, bool reverse) : _ptr(ptr),_next(nullptr),_prev(nullptr),_list(list),_reverse(reverse){
+    Iterator<ValueType>::Iterator(const Liste<ValueType> *Liste, typename Liste<ValueType>::node_t *ptr, bool reverse) : _ptr(ptr),_next(nullptr),_prev(nullptr),_Liste(Liste),_reverse(reverse){
         refresh();
     }
     template <typename ValueType>
@@ -247,7 +247,7 @@ namespace cmpt_info
             }
         }else{
             _next = nullptr;
-            _prev = _reverse ? _list->_first : _list->_last;
+            _prev = _reverse ? _Liste->_first : _Liste->_last;
         }
     }
     template <typename ValueType>

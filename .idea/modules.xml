@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/CADET_COLLIGNON_CPP.iml" filepath="$PROJECT_DIR$/.idea/CADET_COLLIGNON_CPP.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/CADET_COLLIGNON_CPP2.iml" filepath="$PROJECT_DIR$/.idea/CADET_COLLIGNON_CPP2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/QtTest.iml" filepath="$PROJECT_DIR$/.idea/QtTest.iml" />
     </modules>
   </component>
 </project>
