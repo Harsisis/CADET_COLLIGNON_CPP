@@ -1,8 +1,8 @@
 #ifndef DEF_CMPT_INFO_Arbre_HPP
 #define DEF_CMPT_INFO_Arbre_HPP
-
 #include <cstdlib>
 #include <ostream>
+#include <cstdio>
 #include "Liste.hpp"
 
 struct bintree_node{
@@ -27,9 +27,9 @@ public:
 void bst::insert(int item){
     bintree_node *p=new bintree_node;
     bintree_node *parent;
-    p-&gt;data=item;
-    p-&gt;left=NULL;
-    p-&gt;right=NULL;
+    p->data=item;
+    p->left=NULL;
+    p->right=NULL;
     parent=NULL;
     if(isempty())
         root=p;
@@ -39,14 +39,14 @@ void bst::insert(int item){
         while(ptr!=NULL){
             parent=ptr;
             if(item&gt;ptr-&gt;data)
-            ptr=ptr-&gt;right;
+            ptr=ptr-p->right;
             else
-            ptr=ptr-&gt;left;
+            ptr=ptr->left;
         }
         if(item&lt;parent-&gt;data)
-        parent-&gt;left=p;
+        parent->left;
         else
-        parent-&gt;right=p;
+        parent->right;
     }
 }
 void bst::displayBinTree(){
@@ -54,8 +54,10 @@ void bst::displayBinTree(){
 }
 void bst::printBinTree(bintree_node *ptr){
     if(ptr!=NULL){
-        printBinTree(ptr-&gt;left);
-        cout&lt;&lt;"  "&lt;&lt;ptr-&gt;data&lt;&lt;"     ";
-        printBinTree(ptr-&gt;right);
+        printBinTree(ptr->left);
+        printBinTree(ptr->right);
+        printf(reinterpret_cast<const char *>(ptr->left), ptr->right);
     }
 }
+
+#endif

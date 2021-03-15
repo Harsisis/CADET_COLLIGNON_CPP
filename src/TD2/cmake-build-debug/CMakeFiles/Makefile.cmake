@@ -53,5 +53,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/QtTest.dir/DependInfo.cmake"
+  "CMakeFiles/TD2.dir/DependInfo.cmake"
   )

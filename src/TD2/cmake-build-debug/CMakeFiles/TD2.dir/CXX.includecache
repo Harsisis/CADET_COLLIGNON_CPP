@@ -6,5 +6,31 @@
 
 #IncludeRegexTransform: 
 
+D:/Bureau/travail/0_PROJETS/CADET_COLLIGNON_CPP/src/TD2/File.hpp
+cstdlib
+-
+ostream
+-
+Liste.hpp
+D:/Bureau/travail/0_PROJETS/CADET_COLLIGNON_CPP/src/TD2/Liste.hpp
+
+D:/Bureau/travail/0_PROJETS/CADET_COLLIGNON_CPP/src/TD2/Liste.hpp
+NoeudDeListe.cpp
+D:/Bureau/travail/0_PROJETS/CADET_COLLIGNON_CPP/src/TD2/NoeudDeListe.cpp
+
+D:/Bureau/travail/0_PROJETS/CADET_COLLIGNON_CPP/src/TD2/NoeudDeListe.cpp
+iostream
+-
+
 D:/Bureau/travail/0_PROJETS/CADET_COLLIGNON_CPP/src/TD2/main.cpp
+File.hpp
+D:/Bureau/travail/0_PROJETS/CADET_COLLIGNON_CPP/src/TD2/File.hpp
+iostream
+-
+string
+-
+cstdio
+-
+windows.h
+-
 

@@ -75,17 +75,6 @@ CMAKE_BINARY_DIR = D:\Bureau\travail\0_PROJETS\CADET_COLLIGNON_CPP\src\TD2\cmake
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Users\Gauthier V1.0\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7148.70\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -96,6 +85,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"C:\Users\Gauthier V1.0\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7148.70\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -130,17 +130,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named QtTest
+# Target rules for targets named TD2
 
 # Build rule for target.
-QtTest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 QtTest
-.PHONY : QtTest
+TD2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TD2
+.PHONY : TD2
 
 # fast build rule for target.
-QtTest/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QtTest.dir\build.make CMakeFiles/QtTest.dir/build
-.PHONY : QtTest/fast
+TD2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TD2.dir\build.make CMakeFiles/TD2.dir/build
+.PHONY : TD2/fast
 
 main.obj: main.cpp.obj
 
@@ -148,7 +148,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QtTest.dir\build.make CMakeFiles/QtTest.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TD2.dir\build.make CMakeFiles/TD2.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -157,7 +157,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QtTest.dir\build.make CMakeFiles/QtTest.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TD2.dir\build.make CMakeFiles/TD2.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -166,7 +166,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QtTest.dir\build.make CMakeFiles/QtTest.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TD2.dir\build.make CMakeFiles/TD2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -177,7 +177,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... QtTest
+	@echo ... TD2
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -72,7 +72,7 @@ CMAKE_BINARY_DIR = D:\Bureau\travail\0_PROJETS\CADET_COLLIGNON_CPP\src\TD2\cmake
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/QtTest.dir/all
+all: CMakeFiles/TD2.dir/all
 
 .PHONY : all
 
@@ -82,36 +82,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/QtTest.dir/clean
+clean: CMakeFiles/TD2.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/QtTest.dir
+# Target rules for target CMakeFiles/TD2.dir
 
 # All Build rule for target.
-CMakeFiles/QtTest.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QtTest.dir\build.make CMakeFiles/QtTest.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QtTest.dir\build.make CMakeFiles/QtTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Bureau\travail\0_PROJETS\CADET_COLLIGNON_CPP\src\TD2\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target QtTest"
-.PHONY : CMakeFiles/QtTest.dir/all
+CMakeFiles/TD2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TD2.dir\build.make CMakeFiles/TD2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TD2.dir\build.make CMakeFiles/TD2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Bureau\travail\0_PROJETS\CADET_COLLIGNON_CPP\src\TD2\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target TD2"
+.PHONY : CMakeFiles/TD2.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/QtTest.dir/rule: cmake_check_build_system
+CMakeFiles/TD2.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Bureau\travail\0_PROJETS\CADET_COLLIGNON_CPP\src\TD2\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/QtTest.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/TD2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Bureau\travail\0_PROJETS\CADET_COLLIGNON_CPP\src\TD2\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/QtTest.dir/rule
+.PHONY : CMakeFiles/TD2.dir/rule
 
 # Convenience name for target.
-QtTest: CMakeFiles/QtTest.dir/rule
+TD2: CMakeFiles/TD2.dir/rule
 
-.PHONY : QtTest
+.PHONY : TD2
 
 # clean rule for target.
-CMakeFiles/QtTest.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QtTest.dir\build.make CMakeFiles/QtTest.dir/clean
-.PHONY : CMakeFiles/QtTest.dir/clean
+CMakeFiles/TD2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TD2.dir\build.make CMakeFiles/TD2.dir/clean
+.PHONY : CMakeFiles/TD2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
