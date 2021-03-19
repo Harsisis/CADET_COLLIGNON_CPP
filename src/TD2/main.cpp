@@ -122,7 +122,7 @@ T_arbre* saisirArbre(int i) {
     T_arbre *tpmp = new T_arbre();
     string choix, str;
     do {
-        cout << "Vous etes au niveau " << i << endl << "Voulez-vous un fils droit ? oui/non" << endl;
+        cout << "Vous etes au niveau " << i << endl << "Voulez-vous un fils gauche ? oui/non" << endl;
         cin >> choix;
     } while (choix != "oui" || choix != "non");
     if (choix == "oui") {
