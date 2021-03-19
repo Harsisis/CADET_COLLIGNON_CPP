@@ -5,59 +5,65 @@
 #include <cstdio>
 #include "Liste.hpp"
 
-struct bintree_node{
-    bintree_node *left;
-    bintree_node *right;
-    int data;
-} ;
-class bst{
-    bintree_node *root;
-public:
-    bst(){
-        root=NULL;
-    }
-    int isempty() {
-        return(root==NULL);
-    }
-    void insert(int item);
-    void displayBinTree();
-    void printBinTree(bintree_node *);
+class T_arbre{
+protected:
+    string var;
+    T_arbre *AG;
+    T_arbre *AD;
 
-};
-void bst::insert(int item){
-    bintree_node *p=new bintree_node;
-    bintree_node *parent;
-    p->data=item;
-    p->left=NULL;
-    p->right=NULL;
-    parent=NULL;
-    if(isempty())
-        root=p;
-    else{
-        bintree_node *ptr;
-        ptr=root;
-        while(ptr!=NULL){
-            parent=ptr;
-            if(item&gt;ptr-&gt;data)
-            ptr=ptr-p->right;
-            else
-            ptr=ptr->left;
+public:
+
+    T_arbre() {
+        this->AG = nullptr;
+        this->AD = nullptr;
+        this->var = "";
+    }
+
+    T_arbre(string var) {
+        this->AG = nullptr;
+        this->AD = nullptr;
+        this->var = var;
+    }
+
+    T_arbre(T_arbre *AG, T_arbre *AD, string var) {
+        this->AG = AG;
+        this->AD = AD;
+        this->var = var;
+    }
+
+    virtual void afficher() {
+        if (AG != NULL) {
+            AG->afficher();
         }
-        if(item&lt;parent-&gt;data)
-        parent->left;
-        else
-        parent->right;
+        cout << var << endl;
+        if (AD != NULL) {
+            AD->afficher();
+        }
     }
-}
-void bst::displayBinTree(){
-    printBinTree(root);
-}
-void bst::printBinTree(bintree_node *ptr){
-    if(ptr!=NULL){
-        printBinTree(ptr->left);
-        printBinTree(ptr->right);
-        printf(reinterpret_cast<const char *>(ptr->left), ptr->right);
+
+    const string &getVar() const {
+        return var;
     }
-}
+
+    void setVar(const string &var) {
+        T_arbre::var = var;
+    }
+
+    T_arbre *getAg() const {
+        return AG;
+    }
+
+    void setAg(T_arbre *ag) {
+        AG = ag;
+    }
+
+    T_arbre *getAd() const {
+        return AD;
+    }
+
+    void setAd(T_arbre *ad) {
+        AD = ad;
+    }
+};
 
 #endif

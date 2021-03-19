@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+D:/Bureau/travail/0_PROJETS/CADET_COLLIGNON_CPP/src/TD2/Arbre.hpp
+cstdlib
+-
+ostream
+-
+cstdio
+-
+Liste.hpp
+D:/Bureau/travail/0_PROJETS/CADET_COLLIGNON_CPP/src/TD2/Liste.hpp
+
 D:/Bureau/travail/0_PROJETS/CADET_COLLIGNON_CPP/src/TD2/File.hpp
 cstdlib
 -
@@ -15,16 +25,28 @@ Liste.hpp
 D:/Bureau/travail/0_PROJETS/CADET_COLLIGNON_CPP/src/TD2/Liste.hpp
 
 D:/Bureau/travail/0_PROJETS/CADET_COLLIGNON_CPP/src/TD2/Liste.hpp
-NoeudDeListe.cpp
-D:/Bureau/travail/0_PROJETS/CADET_COLLIGNON_CPP/src/TD2/NoeudDeListe.cpp
+NoeudDeListe.h
+D:/Bureau/travail/0_PROJETS/CADET_COLLIGNON_CPP/src/TD2/NoeudDeListe.h
 
-D:/Bureau/travail/0_PROJETS/CADET_COLLIGNON_CPP/src/TD2/NoeudDeListe.cpp
+D:/Bureau/travail/0_PROJETS/CADET_COLLIGNON_CPP/src/TD2/NoeudDeListe.h
 iostream
 -
 
+D:/Bureau/travail/0_PROJETS/CADET_COLLIGNON_CPP/src/TD2/Pile.hpp
+cstdlib
+-
+ostream
+-
+Liste.hpp
+D:/Bureau/travail/0_PROJETS/CADET_COLLIGNON_CPP/src/TD2/Liste.hpp
+
 D:/Bureau/travail/0_PROJETS/CADET_COLLIGNON_CPP/src/TD2/main.cpp
+Arbre.hpp
+D:/Bureau/travail/0_PROJETS/CADET_COLLIGNON_CPP/src/TD2/Arbre.hpp
 File.hpp
 D:/Bureau/travail/0_PROJETS/CADET_COLLIGNON_CPP/src/TD2/File.hpp
+Pile.hpp
+D:/Bureau/travail/0_PROJETS/CADET_COLLIGNON_CPP/src/TD2/Pile.hpp
 iostream
 -
 string

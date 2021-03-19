@@ -12,28 +12,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66e5399d-127e-407c-8758-e07de564c7a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TD2/NoeudDeListe.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TD2/NoeudDeListe.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TD2/Arbre.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/Arbre.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TD2/File.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/File.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TD2/Liste.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/Liste.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/NoeudDeListe.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/Pile.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/Pile.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/TD2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/cmake-build-debug/TD2.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/helloworld.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/helloworld.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/helloworld.ui" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TD2/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,6 +69,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/TD2/CMakeLists.txt" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -106,7 +106,10 @@
       <workItem from="1612770491892" duration="5729000" />
       <workItem from="1613372327381" duration="6702000" />
       <workItem from="1615187063693" duration="3392000" />
-      <workItem from="1615792547452" duration="14952000" />
+      <workItem from="1615792547452" duration="15750000" />
+      <workItem from="1615912436385" duration="5665000" />
+      <workItem from="1615967423335" duration="593000" />
+      <workItem from="1616182510272" duration="8940000" />
     </task>
     <task id="LOCAL-00001" summary="project structure">
       <created>1612770951998</created>
@@ -171,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615201075379</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="ca marche pas mais c'est la">
+      <created>1615822406047</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1615822406047</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +207,7 @@
     <MESSAGE value="fichiers bizzares" />
     <MESSAGE value="héritage" />
     <MESSAGE value="readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme" />
+    <MESSAGE value="ca marche pas mais c'est la" />
+    <option name="LAST_COMMIT_MESSAGE" value="ca marche pas mais c'est la" />
   </component>
 </project>

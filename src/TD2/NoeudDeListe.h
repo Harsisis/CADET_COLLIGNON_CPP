@@ -1,4 +1,9 @@
-#ifndef IOSTREAM
+//
+// Created by Gauthier V1.0 on 19/03/2021.
+//
+
+#ifndef CADET_COLLIGNON_CPP_NOEUDDELISTE_H
+#define CADET_COLLIGNON_CPP_NOEUDDELISTE_H
 #include <iostream>
 
 using namespace std;
