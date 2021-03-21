@@ -3,8 +3,6 @@
 #define CADET_COLLIGNON_CPP_LISTE_HPP
 #include "NoeudDeListe.h"
 
-//idem pour T ici, comme ds NeudDeListe
-
 class Liste {
 protected:
     NoeudDeListe* pPremier;

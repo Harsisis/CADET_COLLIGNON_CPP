@@ -12,64 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66e5399d-127e-407c-8758-e07de564c7a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/Arbre.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/Arbre.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/File.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/File.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/Liste.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/Liste.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/NoeudDeListe.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/NoeudDeListe.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/Pile.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/Pile.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CADET_COLLIGNON_CPP.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CADET_COLLIGNON_CPP.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/3.17.5/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CMakeFiles/3.17.5/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/3.17.5/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CMakeFiles/3.17.5/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/3.17.5/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CMakeFiles/3.17.5/CMakeRCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/3.17.5/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CMakeFiles/3.17.5/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/QtTest.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/QtTest.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/QtTest.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/QtTest.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/QtTest.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/QtTest.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/QtTest.dir/linklibs.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/QtTest.dir/objects1.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/QtTest.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/linklibs.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/main.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/objects.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/objects1.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/QtTest.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/QtTest.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/TD2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/TD2.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Liste.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/Liste.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/NoeudDeListe.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/NoeudDeListe.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +90,7 @@
       <workItem from="1615912436385" duration="5665000" />
       <workItem from="1615967423335" duration="593000" />
       <workItem from="1616182510272" duration="9128000" />
-      <workItem from="1616344996632" duration="426000" />
+      <workItem from="1616344996632" duration="1089000" />
     </task>
     <task id="LOCAL-00001" summary="project structure">
       <created>1612770951998</created>
@@ -239,7 +183,21 @@
       <option name="project" value="LOCAL" />
       <updated>1616192773073</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="ca marche pas mais c'est la">
+      <created>1616345442340</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1616345442340</updated>
+    </task>
+    <task id="LOCAL-00015" summary="ca marche pas mais c'est la">
+      <created>1616345470653</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1616345470653</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

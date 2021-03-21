@@ -16,7 +16,7 @@ public:
 
     explicit NoeudDeListe(string donnee) {
         this->donnee = donnee;
-        this->suivant = nullptr; // cf différence avec NULL
+        this->suivant = nullptr;
     }
 
     string getDonnee() {
