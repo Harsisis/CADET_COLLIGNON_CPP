@@ -11,5 +11,5 @@
 
 
 ## Répartition :
-* Gauthier 50%
-* Nicolas 50%
+* Gauthier 55%
+* Nicolas 45%
