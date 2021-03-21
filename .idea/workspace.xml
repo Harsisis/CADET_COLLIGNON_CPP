@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="CADET_COLLIGNON_CPP" targetName="TD2" />
+      <config projectName="CADET_COLLIGNON_CPP" targetName="src" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -12,28 +12,64 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66e5399d-127e-407c-8758-e07de564c7a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TD2/NoeudDeListe.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/Arbre.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/Arbre.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/File.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/File.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/Liste.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/Liste.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/NoeudDeListe.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/Pile.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/Pile.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/TD2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/cmake-build-debug/TD2.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD2/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD2/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/Arbre.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/Arbre.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/File.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/File.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/Liste.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/Liste.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/NoeudDeListe.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/NoeudDeListe.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/Pile.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/Pile.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CADET_COLLIGNON_CPP.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CADET_COLLIGNON_CPP.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/3.17.5/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CMakeFiles/3.17.5/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/3.17.5/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CMakeFiles/3.17.5/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/3.17.5/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CMakeFiles/3.17.5/CMakeRCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/3.17.5/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CMakeFiles/3.17.5/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/QtTest.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/QtTest.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/QtTest.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/QtTest.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/QtTest.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/QtTest.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/QtTest.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/QtTest.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/QtTest.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TD2.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/QtTest.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/QtTest.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/TD2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/TD2.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD2/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +104,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/TD2/CMakeLists.txt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/src/CMakeLists.txt" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -79,19 +115,19 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TD2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CADET_COLLIGNON_CPP" TARGET_NAME="TD2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CADET_COLLIGNON_CPP" RUN_TARGET_NAME="TD2">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="src" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CADET_COLLIGNON_CPP" TARGET_NAME="src" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CADET_COLLIGNON_CPP" RUN_TARGET_NAME="src">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -109,7 +145,8 @@
       <workItem from="1615792547452" duration="15750000" />
       <workItem from="1615912436385" duration="5665000" />
       <workItem from="1615967423335" duration="593000" />
-      <workItem from="1616182510272" duration="8940000" />
+      <workItem from="1616182510272" duration="9128000" />
+      <workItem from="1616344996632" duration="426000" />
     </task>
     <task id="LOCAL-00001" summary="project structure">
       <created>1612770951998</created>
@@ -181,7 +218,28 @@
       <option name="project" value="LOCAL" />
       <updated>1615822406047</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ca marche pas mais c'est la">
+      <created>1616192619248</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1616192619249</updated>
+    </task>
+    <task id="LOCAL-00012" summary="ca marche pas mais c'est la">
+      <created>1616192669295</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1616192669295</updated>
+    </task>
+    <task id="LOCAL-00013" summary="ca marche pas mais c'est la">
+      <created>1616192773073</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1616192773073</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,0 +1,4 @@
+D:\ToolBox\apps\CLion\ch-0\203.7717.62\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\Bureau\travail\0_PROJETS\CADET_COLLIGNON_CPP\src\src
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Bureau/travail/0_PROJETS/CADET_COLLIGNON_CPP/src/src/cmake-build-debug

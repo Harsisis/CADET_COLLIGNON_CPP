@@ -1,16 +1,14 @@
-# CADET_COLLIGNON_CPP
+# CADET_COLLIGNON_ProjQtC++
 
-## TD1 :
-* Création des méthodes et objets Liste et Pile
-* Pas de soucis sur ces classes ni de grandes difficultées.
-* Mais abandon de nos classes, pour utiliser les classes du std. (ces classes seront plus propres et poseront moins de problèmes)
+## Présentation :
+* Création de piles, files et arbres binaire en c++.
+* méthodes, d'ajout, de suppréssion et de visualisation des piles, files et arbres binaire.
+* Abandon total de QT.
 
-## TD2:
-* Tentative d'installation de QT.
-* Implémentation de l'héritage des classes  ( Liste <-- Pile et File )
+## Lancement:
+* le fichier principal est main.cpp sans argument au lancement.
 
 
-## Remarques :
-* Difficultées à utiliser c++, car nous ne connaissons pas
-* C'est dommage de sanctionner les étudiants, car ils se sont renseigné pour savoir ce qui était faisable ou non en c++ avec les librairies
-* Utiliser les fonctions de liste dans pile et file
+## Répartition :
+* Gauthier 50%
+* Nicolas 50%
