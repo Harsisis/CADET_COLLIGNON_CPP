@@ -7,6 +7,7 @@
 
 ## Lancement:
 * le fichier principal est main.cpp sans argument au lancement.
+* Si lancement avec Clion le fichier MakeFile est déjà correct
 
 
 ## Répartition :
